@@ -5,6 +5,7 @@
 #include "tasks/4 task.h"
 #include "tasks/5 task.h"
 #include "tasks/6 task.h"
+#include "tasks/7 task.h"
 
 int main() {
     SetConsoleOutputCP(CP_UTF8);
@@ -22,6 +23,6 @@ int main() {
     printf("Задание 6\n");
     task_6_test();
     printf("Задание 7\n");
-
+    task_7_test();
 
 }

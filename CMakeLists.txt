@@ -9,4 +9,5 @@ add_executable(Practice main.c
         "tasks/3 task.h"
         "tasks/4 task.h"
         "tasks/5 task.h"
-        "tasks/6 task.h")
+        "tasks/6 task.h"
+        "tasks/7 task.h")
