@@ -3,4 +3,8 @@ project(Practice C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Practice main.c)
+add_executable(Practice main.c
+        "tasks/1 task.h"
+        "tasks/2 task.h"
+        "tasks/3 task.h"
+        "tasks/4 task.h")

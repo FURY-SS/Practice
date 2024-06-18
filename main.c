@@ -1,30 +1,15 @@
-#include <stdio.h>
+#include <windows.h>
+#include "tasks/1 task.h"
+#include "tasks/2 task.h"
+#include "tasks/3 task.h"
 
 int main() {
-    int hours, minutes, seconds;
+    SetConsoleOutputCP(CP_UTF8);
 
-    printf("Enter the current time (hours, minutes, seconds): \n");
-    scanf("%d %d %d", &hours, &minutes, &seconds);
-
-    if (seconds >= 30) {
-        minutes++;
-        if (minutes == 60) {
-            hours++;
-            minutes = 0;
-        }
-    }
-
-    if (hours == 24) {
-        hours = 0;
-    }
-
-    printf("Rounded current time: %d h. %d min.\n", hours, minutes);
-
-    if (minutes >= 30) {
-        hours++;
-    }
-
-    printf("Rounded current time: %d h.\n", hours);
-
-    return 0;
+    printf("Задание 1\n");
+    task_1_test();
+    printf("Задание 2\n");
+    task_2_test();
+    printf("Задание 3\n");
+    task_3_test();
 }
