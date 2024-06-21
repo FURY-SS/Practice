@@ -19,7 +19,7 @@ void round_time(int hours,int minutes, int seconds) {
     if (minutes >= 30)
         hours++;
 
-    printf("Округленное время до часов: %d ч.\n", hours, minutes);
+    printf("Округленное время до часов: %d ч.\n", hours);
 }
 
 // Если можно округлить только до минут
