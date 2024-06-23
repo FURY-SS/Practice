@@ -25,9 +25,9 @@ void compress_bits(unsigned char* input, int input_size) {
 // Тест 1
 int task_9_test_1() {
     unsigned char input[] = {1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0,1,0}; // Пример неупакованного двоичного массива
-    int inputSize = sizeof(input) / sizeof(input[0]);
+    int input_size = sizeof(input) / sizeof(input[0]);
 
-    compress_bits(input, inputSize);
+    compress_bits(input, input_size);
 
     return 0;
 }
@@ -35,9 +35,9 @@ int task_9_test_1() {
 // Тест 2
 int task_9_test_2() {
     unsigned char input[] = {1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0,1,1}; // Пример неупакованного двоичного массива
-    int inputSize = sizeof(input) / sizeof(input[0]);
+    int input_size = sizeof(input) / sizeof(input[0]);
 
-    compress_bits(input, inputSize);
+    compress_bits(input, input_size);
 
     return 0;
 }

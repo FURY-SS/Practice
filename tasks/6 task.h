@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Функция для проверки, является ли подпоследовательность арифметической прогрессией
+// Функция  для  проверки,  является  ли  подпоследовательность  арифметической  прогрессией
 int is_arithmetic_progression(int* arr, int start, int end) {
     if (end - start < 2)
         return 0;
@@ -20,7 +20,7 @@ int is_arithmetic_progression(int* arr, int start, int end) {
     return 1;
 }
 
-// Функция для проверки, является ли подпоследовательность геометрической прогрессией
+// Функция  для  проверки,  является  ли  подпоследовательность  геометрической  прогрессией
 int is_geometric_progression(int* arr, int start, int end) {
     if (end - start < 2)
         return 0;
@@ -36,9 +36,9 @@ int is_geometric_progression(int* arr, int start, int end) {
     return 1;
 }
 
-// Функция для нахождения максимальной длины подпоследовательности, являющейся AP или GP
+// Функция  для  нахождения  максимальной  длины  подпоследовательности,  являющейся  AP  или  GP
 int find_longest_progression(int* arr, int n) {
-    int max_length = 2; // Минимальная длина прогрессии - 2
+    int max_length = 2; // Минимальная  длина  прогрессии - 2
 
     for (int i = 0; i < n; i++) {
         for (int j = i + 2; j < n; j++) {
@@ -53,7 +53,7 @@ int find_longest_progression(int* arr, int n) {
     return max_length;
 }
 
-// Если длина АП больше чем ГП
+// Если  длина  АП  больше  чем  ГП
 void task_6_test_1() {
     int arr[] = {2, 4, 6, 8, 10, 12, 14, 28, 56};
     int n = sizeof(arr) / sizeof(arr[0]);

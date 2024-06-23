@@ -8,6 +8,7 @@
 #include "tasks/7 task.h"
 #include "tasks/8 task.h"
 #include "tasks/9 task.h"
+#include "tasks/10 task.h"
 
 int main() {
     SetConsoleOutputCP(CP_UTF8);
@@ -30,4 +31,6 @@ int main() {
     task_8_test();
     printf("Задание 9\n");
     task_9_test();
+    printf("Задание 10\n");
+    task_10_test();
 }
